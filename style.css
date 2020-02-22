@@ -1,0 +1,192 @@
+* {
+    
+    box-sizing: border-box;
+    text-align: center;
+       
+}
+
+header {
+ 
+    height: 520px;
+    max-width: 100%;
+    background-image: 
+    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(245, 87, 8, 0.73)),
+    url('img/cairo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #758DB2;
+    padding-top: 100px;
+    height: 850px;
+    margin-bottom: 50px;
+    
+
+}
+
+h1,
+h2 {
+    font-family: 'Krona One', Arial, Helvetica, sans-serif ;
+    color: #758DB2;
+}
+
+
+
+.title {
+   
+    text-transform: uppercase;
+    font-size: 1.625rem; /* 26px/16px */
+    letter-spacing: .065em;
+    font-weight: 200;
+       
+}
+
+span {
+
+    border-bottom: 3px solid;
+    
+}
+
+
+
+.arrow {
+
+    padding-top: 220px;
+    width: 100px;
+}
+
+/* Main Area */
+
+.main-area {
+
+    border: 15px solid lightblue;
+    margin: 50px;
+    padding: 10px;
+    color: rgb(58, 56, 56);
+    line-height: 2.5rem;
+    box-shadow: 10px 10px 10px rgb(78, 95, 78);
+    margin-bottom: 80px;
+    border-radius: 10px;
+     
+}
+
+a {
+    text-decoration-line: none;
+    border-bottom: 3px solid;
+ 
+}
+
+a:link {
+    color: orange;
+}
+
+a:hover {
+
+    color: red;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+
+/* End of Main area */
+
+/* Second Area */
+
+.inner {
+    width: 50%;
+    height: 1px;
+    margin: 0px auto;
+    border-top: 1px dotted #969696;
+    margin-bottom: 50px;
+}
+
+img {
+  max-width: 250px;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+.second-area {
+     margin-top: 80px;
+}
+
+p {
+    color: rgb(58, 56, 56);
+    line-height: 1.6rem;
+    font-size: medium;
+    text-align: left;
+    color: #969696;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#space {
+
+    margin-bottom: 150px;
+}
+
+.pyramids,
+.river {
+
+    width: 49%;
+}
+.pyramids {
+    float: left;
+    padding: 15px;
+}
+
+.river {
+    float: right;
+    padding: 15px;
+   
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* End second area */
+
+/* Footer */
+
+footer {
+    border-top: 3px solid orange;
+    padding-top: 35px;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+/* End Footer */
+
+/* @media */
+
+@media (max-width: 520px) {
+    
+.main-area{
+    color: orangered;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 80px;
+}
+
+}
+
+@media (max-width: 574px) {
+    .pyramids,
+    .river {
+        float: none;
+        width: auto;
+        margin: auto;
+    }
+
+
+}
